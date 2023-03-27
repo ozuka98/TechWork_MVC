@@ -1,9 +1,9 @@
 <?php
 $db = mysqli_connect(
-    $_ENV['DB_HOST'] ?? 'us-cdbr-east-06.cleardb.net',
-    $_ENV['DB_USER'] ?? 'b824cc74451e96', 
-    $_ENV['DB_PASS'] ?? '7e94e75d', 
-    $_ENV['DB_NAME'] ?? 'heroku_8f7b1849124d968'
+    $_ENV['DB_HOST'] ?? '',
+    $_ENV['DB_USER'] ?? '', 
+    $_ENV['DB_PASS'] ?? '', 
+    $_ENV['DB_NAME'] ?? ''
 );
 
 if (!$db) {
